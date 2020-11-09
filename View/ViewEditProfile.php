@@ -30,82 +30,51 @@
       <div class="logo"><a href="http://www.creative-tim.com" class="simple-text logo-normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
           Tim créatif
         </font></font></a></div>
-      <div class="sidebar-wrapper ps-container ps-theme-default" data-ps-id="ef55298a-6d32-404f-9e96-7ec80702e2b0">
-        <form class="navbar-form">
-              <span class="bmd-form-group"><div class="input-group no-border">
-                <input type="text" value="" class="form-control" placeholder="Chercher ...">
-                <button type="submit" class="btn btn-white btn-round btn-just-icon">
-                  <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chercher</font></font></font></font></i>
-                  <div class="ripple-container"></div>
-                </button>
-              </div></span>
-            </form><ul class="nav navbar-nav nav-mobile-menu">
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:;">
-                  <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tableau de bord</font></font></font></font></i>
-                  <p class="d-lg-none d-md-block"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                    Statistiques
-                  </font></font></font></font></p>
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">notifications</font></font></font></font></i>
-                  <span class="notification"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5</font></font></font></font></span>
-                  <p class="d-lg-none d-md-block"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                    Quelques actions
-                  </font></font></font></font></p>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mike John a répondu à votre e-mail</font></font></font></font></a>
-                  <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vous avez 5 nouvelles tâches</font></font></font></font></a>
-                  <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tu es maintenant ami avec Andrew</font></font></font></font></a>
-                  <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Une autre notification</font></font></font></font></a>
-                  <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Un autre</font></font></font></font></a>
+      <div class="sidebar-wrapper ps-container ps-theme-default" data-ps-id="f325a482-f1a7-7f36-4a92-ab35ee970848">
+        <ul class="nav">
+                <li class="nav-item  ">
+                  <a class="nav-link" href="./dashboard.html">
+                    <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tableau de bord</font></font></i>
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">
+                                    Tableau de bord
+                                </font>
+                            </font>
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link" href="./user.html">
+                        <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">la personne</font></font></i>
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">
+                                    Profil de l'utilisateur
+                                </font>
+                            </font>
+                        </p>
+                    </a>
+                </li>
+            </ul>
+            <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;">
                 </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="javascript:;" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">la personne</font></font></font></font></i>
-                  <p class="d-lg-none d-md-block"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                    Compte
-                  </font></font></font></font></p>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
-                  <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Profil</font></font></font></font></a>
-                  <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Réglages</font></font></font></font></a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Se déconnecter</font></font></font></font></a>
+            </div>
+            <div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+                <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;">
                 </div>
-              </li>
-            </ul><ul class="nav">
-          <li class="nav-item  ">
-            <a class="nav-link" href="./dashboard.html">
-              <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tableau de bord</font></font></i>
-              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tableau de bord</font></font></p>
-            </a>
-          </li>
-          <li class="nav-item active ">
-            <a class="nav-link" href="./user.html">
-              <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">la personne</font></font></i>
-              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Profil de l'utilisateur</font></font></p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./tables.html">
-              <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">content_paste</font></font></i>
-              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Liste des tableaux</font></font></p>
-            </a>
-          </li>
+            </div>
+        </div>
           
           
           
           
           
-          
-        </ul>
-      <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
-    <div class="sidebar-background" style="background-image: url(../assets/img/sidebar-1.jpg) "></div></div>
+      
+        <div class="sidebar-background" style="background-image: url(../assets/img/sidebar-1.jpg) ">
+        </div>
+    </div>
     <div class="main-panel ps-container ps-theme-default" data-ps-id="e07c1bc5-bbc3-d1d5-8c50-e58ac49d7168">
       <!-- Navbar -->
       
