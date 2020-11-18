@@ -19,14 +19,14 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Profession
+                                    Secteur d'activit&eacute;
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="JobControler.php">All</a>
+                                    <a class="dropdown-item" href="BrancheActivityControler.php">All</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Cin&eacutema</a>
-                                    <a class="dropdown-item" href="#">Musicien</a>
-                                    <a class="dropdown-item" href="#">Danseur</a>
+                                    <a class="dropdown-item" href="JobControler.php">Cin&eacutema</a>
+                                    <a class="dropdown-item" href="JobControler.php">Musicien</a>
+                                    <a class="dropdown-item" href="JobControler.php">Danseur</a>
                                 </div>
                             </li>
                             <li class="nav-item ">
