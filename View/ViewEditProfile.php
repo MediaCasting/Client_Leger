@@ -7,27 +7,34 @@
 
       <!-- Font-awesome-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
-
+      
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-      
+      <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  
       <!-- Css Personnel-->
-      <link rel="stylesheet" href="../Style/Css/Style.css">
       <link rel="stylesheet" href="../Style/Css/Profil.css">
+      <link rel="stylesheet" href="../Style/Css/Style.css">
 
+      <!-- Material icon-->
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+    
       <!--Vile CP-->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:700|Titillium+Web|Fira+Mono">
-    <link rel="stylesheet" type="text/css" href="https://vicopo.selfbuild.fr/index.css">
 
 
       <link rel="icon" href="../Style/Picture/Logo.png" />
       <title>M&eacutegaCasting</title>
+
+     
 
     </head>
     <body>
         <?php 
             include('ViewMenu.php');
         ?>
+        
         <div class="wrapper ">
             <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
                 
@@ -65,7 +72,7 @@
                         </li>
 
                         <li class="nav-item active ">
-                            <a class="nav-link" href="./user.html">
+                            <a class="nav-link" href="#">
                                 <i class="material-icons">
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">
@@ -96,7 +103,7 @@
                     </div>
                 </div>
 
-                <div class="sidebar-background" style="background-image: url(../assets/img/sidebar-1.jpg) ">
+                <div class="sidebar-background" style="background-image: url(../Style/Picture/sidebar.png) ">
                 </div>
             </div>
             <div class="main-panel ps-container ps-theme-default" data-ps-id="e07c1bc5-bbc3-d1d5-8c50-e58ac49d7168">
@@ -119,7 +126,7 @@
                                     <p class="card-category">
                                         <font style="vertical-align: inherit;">
                                             <font style="vertical-align: inherit;">
-                                                complète ton profil
+                                                compl&egrave;te ton profil
                                             </font>
                                         </font>
                                     </p>
@@ -129,116 +136,53 @@
                                         <div class="row">
                                             <div class="col-md-5">
                                                 <div class="form-group bmd-form-group">
-                                                    <label class="bmd-label-floating">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">
-                                                                Entreprise (désactivée)
-                                                            </font>
-                                                        </font>
-                                                    </label>
-                                                    <input type="text" class="form-control" disabled="">
+                                                    <input placeholder="Entreprise" type="text" class="form-control" disabled="">
                                                 </div>
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="form-group bmd-form-group">
-                                                    <label class="bmd-label-floating">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">
-                                                                Nom d'utilisateur
-                                                            </font>
-                                                        </font>
-                                                    </label>
-                                                    <input type="text" class="form-control">
+                                                    <input placeholder="Nom d'utilisateur" type="text" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group bmd-form-group">
-                                                    <label class="bmd-label-floating">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">
-                                                                Adresse e-mail
-                                                            </font>
-                                                        </font>
-                                                    </label>
-                                                    <input type="email" class="form-control">
+                                                    <input placeholder="Adresse e-mail" type="email" class="form-control">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group bmd-form-group">
-                                                    <label class="bmd-label-floating">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">
-                                                                Prénom
-                                                            </font>
-                                                        </font>
-                                                    </label>
-                                                    <input type="text" class="form-control">
+                                                    <input placeholder="Pr&eacute;nom" type="text" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group bmd-form-group">
-                                                    <label class="bmd-label-floating">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">
-                                                                Nom de famille
-                                                            </font>
-                                                        </font>
-                                                    </label>
-                                                    <input type="text" class="form-control">
+                                                    <input placeholder="Nom de famille" type="text" class="form-control">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group bmd-form-group">
-                                                    <label class="bmd-label-floating">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">
-                                                                Une robe
-                                                            </font>
-                                                        </font>
-                                                    </label>
-                                                    <input type="text" class="form-control">
+                                                    <input placeholder="Une robe" type="text" class="form-control">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="form-group bmd-form-group half">
-                                                    <label class="bmd-label-floating">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">
-                                                                code postal
-                                                            </font>
-                                                        </font>
-                                                    </label>
-                                                  <input id="code" placeholder="Code postal" autocomplete="off" type="text" class="form-control" autofocus>
+                                                    <input id="code" placeholder="Code postal" autocomplete="off" type="text" class="form-control" autofocus>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group bmd-form-group half">
-                                                    <label class="bmd-label-floating">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">
-                                                                Ville
-                                                            </font>
-                                                        </font>
-                                                    </label>
                                                     <input id="city" placeholder="Ville" autocomplete="off" type="text" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group bmd-form-group">
-                                                    <label class="bmd-label-floating">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">
-                                                                Pays
-                                                            </font>
-                                                        </font>
-                                                    </label>
-                                                    <input type="text" class="form-control">
+                                                    <input placeholder="Pays" type="text" class="form-control">
                                                 </div>
                                             </div>
                                         </div>
@@ -248,22 +192,8 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label>
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">
-                                                                À propos de moi
-                                                            </font>
-                                                        </font>
-                                                    </label>
                                                     <div class="form-group bmd-form-group">
-                                                        <label class="bmd-label-floating">
-                                                            <font style="vertical-align: inherit;">
-                                                                <font style="vertical-align: inherit;">
-                                                                    Lamborghini Mercy, ta meuf elle a tellement soif, je suis dans cette Lambo à deux places.
-                                                                </font>
-                                                            </font>
-                                                        </label>
-                                                        <textarea class="form-control" rows="5"></textarea>
+                                                        <textarea placeholder="A propos de moi" class="form-control" rows="5"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
@@ -293,7 +223,7 @@
                                         <p class="card-description">
                                             <font style="vertical-align: inherit;">
                                                 <font style="vertical-align: inherit;">
-                                                    N'ayez pas peur de la vérité parce que nous devons redémarrer la fondation humaine en vérité Et je t'aime comme Kanye aime Kanye J'adore le design du lit de Rick Owens mais le dos est ...
+                                                    description
                                                 </font>
                                             </font>
                                         </p>
@@ -320,7 +250,6 @@
                 <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;">
                 </div>
             </div>
-        </div>
         </div>
 
    

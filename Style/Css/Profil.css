@@ -74,7 +74,7 @@ button, input {
 }
 
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+ .h4, .h6, h4, h6 {
     margin-bottom: .5rem;
     font-family: inherit;
     font-weight: 400;
@@ -365,30 +365,7 @@ button, input {
     }
 
 
-
-.bmd-form-group [class*=" bmd-label"], .bmd-form-group [class^=bmd-label] {
-    position: absolute;
-    pointer-events: none;
-    transition: all .3s ease
-}
-    .bmd-form-group [class*=" bmd-label"], .bmd-form-group [class^=bmd-label] {
-        position: absolute;
-        pointer-events: none;
-        transition: all .3s ease
-    }
-        .bmd-form-group [class*=" bmd-label"].bmd-label-floating, .bmd-form-group [class^=bmd-label].bmd-label-floating {
-            will-change: left,top,contents;
-            margin: 0;
-            line-height: 1.4;
-            font-weight: 400
-        }
-.is-filled .bmd-label-floating, .is-focused .bmd-label-floating {
-    top: -1rem;
-    left: 0;
-    font-size: .6875rem
-}
-
-.bmd-label-floating, .bmd-label-placeholder {
+.bmd-label-placeholder {
     top: .6125rem
 }
 
@@ -413,7 +390,7 @@ textarea {
     background-repeat: no-repeat
 }
 
-.h1, .h2, .h3, .h4, body, h1, h2, h3, h4, h5, h6 {
+ .h4, body, h4, h6 {
     font-family: Roboto,Helvetica,Arial,sans-serif;
     font-weight: 300;
     line-height: 1.5em
@@ -422,7 +399,7 @@ textarea {
 
 
 
-.h3, .h4, h3, h4 {
+ .h4, h4 {
     line-height: 1.4em
 }
 
@@ -468,7 +445,7 @@ textarea {
 
 
     .sidebar .nav {
-        margin-top: 20px;
+        margin:20px 0 0 0;
         display: block
     }
 
@@ -739,3 +716,15 @@ legend {
         right: 0;
         width: 15px
     }
+
+#output{
+    clear: left;
+    padding: 0 50px;
+}
+
+#output a{
+    text-decoration: none;
+    color: #3A5199;
+    display: block;
+    padding: 2px;
+}
